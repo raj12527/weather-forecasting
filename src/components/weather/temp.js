@@ -3,7 +3,7 @@ import Weathercard from "./weathercard.js";
 import "./style.css";
 
 const Temp = () => {
-  const [searchValue, setSearchValue] = useState("pune");
+  const [searchValue, setSearchValue] = useState("gaya");
   const [tempInfo, setTempInfo] = useState({});
 
   const getWeatherInfo = async () => {
